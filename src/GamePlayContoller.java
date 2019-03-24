@@ -30,8 +30,6 @@ public class GamePlayContoller implements ActionListener {
             if (gamePlayModel.buttonIntegerArray[row][col] == 0) {
                 try {
 
-
-
                     Image image = ImageIO.read(getClass().getResource("circle.jpg"));
                     image = image.getScaledInstance(30, 30, Image.SCALE_SMOOTH);
                     gamePlayModel.buttonIntegerArray[row][col]=1;
